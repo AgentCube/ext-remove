@@ -49,7 +49,7 @@
 
   pipejs.editorStdout = document.createElement("div");
   pipejs.editorStdout.id = "pipejs_editor_stdout";
-  pipejs.editorStdout.innerHTML = `PipeJs v${version} (c) ${year} - ${year + 1} | <a href="https://repl.it/@ChezCoder" target="_blank" style=\"background:transparent;color:white;\">@ChezCoder</a><br>JavaScript v${jversion}<br><span style=\"color:orange;background:transparent;\">&gt; </span> `;
+  pipejs.editorStdout.innerHTML = `PipeJs v${version} (c) ${year} - ${year + 1} | <a href="https://repl.it/@AgentCube" target="_blank" style=\"background:transparent;color:white;\">@ChezCoder</a><br>JavaScript v${jversion}<br><span style=\"color:orange;background:transparent;\">&gt; </span> `;
   pipejs.editorStdout.style = "background:transparent;color:rgb(0,255,0);font-family:monospace;font-weight:bold;font-size:15px;display:inline;";
 
   pipejs.editorPrompt = document.createElement("input");
